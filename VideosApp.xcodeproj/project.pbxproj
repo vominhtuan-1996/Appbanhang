@@ -3,19 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81C605348FCC2154A8EA9418 /* Pods_VideosAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB2DC9CDBC577F2F61A7713 /* Pods_VideosAppTests.framework */; };
+		98148DEA1D99C3369087EE8F /* Pods_VideosApp_VideosAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5131DE8DAA421EB3DDB274 /* Pods_VideosApp_VideosAppUITests.framework */; };
+		FD053B53240CE46700093B09 /* image_background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD053B52240CE46700093B09 /* image_background.jpeg */; };
+		FD0AA521FD1FC927701E46FD /* Pods_VideosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835E5C340D7B72EA6B637DB8 /* Pods_VideosApp.framework */; };
+		FD1BD00423F240B00006AA65 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1BD00323F240B00006AA65 /* CameraViewController.swift */; };
+		FD1BD00623F243C00006AA65 /* Clips_iOS_10_App_Shutter_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1BD00523F243C00006AA65 /* Clips_iOS_10_App_Shutter_Icon.png */; };
 		FD22EA8223EA7449008479BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22EA8123EA7449008479BB /* AppDelegate.swift */; };
 		FD22EA8423EA7449008479BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22EA8323EA7449008479BB /* SceneDelegate.swift */; };
-		FD22EA8623EA7449008479BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22EA8523EA7449008479BB /* ViewController.swift */; };
 		FD22EA8923EA7449008479BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22EA8723EA7449008479BB /* Main.storyboard */; };
 		FD22EA8C23EA7449008479BB /* VideosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD22EA8A23EA7449008479BB /* VideosApp.xcdatamodeld */; };
 		FD22EA8E23EA744E008479BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD22EA8D23EA744E008479BB /* Assets.xcassets */; };
 		FD22EA9123EA744E008479BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22EA8F23EA744E008479BB /* LaunchScreen.storyboard */; };
 		FD22EA9C23EA744F008479BB /* VideosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22EA9B23EA744F008479BB /* VideosAppTests.swift */; };
 		FD22EAA723EA744F008479BB /* VideosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22EAA623EA744F008479BB /* VideosAppUITests.swift */; };
+		FD22EAB823EA7877008479BB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22EAB723EA7877008479BB /* MainController.swift */; };
+		FD22EAC023EAA290008479BB /* icons8-calendar-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22EABF23EAA290008479BB /* icons8-calendar-50.png */; };
+		FD22EAC223EAA2BF008479BB /* icons8-home-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22EAC123EAA2BF008479BB /* icons8-home-50.png */; };
+		FD23247423FA288200CABEEE /* camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD23247323FA288200CABEEE /* camera.jpg */; };
+		FD23247623FA28B800CABEEE /* iOS-app-icons-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD23247523FA28B800CABEEE /* iOS-app-icons-1.jpg */; };
+		FD23247823FA2DA300CABEEE /* analog-camera-for-ios-app-icon-full-size--33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD23247723FA2DA200CABEEE /* analog-camera-for-ios-app-icon-full-size--33.jpg */; };
+		FD23247A23FA2DE400CABEEE /* cydia.png in Resources */ = {isa = PBXBuildFile; fileRef = FD23247923FA2DE400CABEEE /* cydia.png */; };
+		FD23247C23FA2E6800CABEEE /* dribbble1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD23247B23FA2E6800CABEEE /* dribbble1.png */; };
+		FD398F672467DB1E00BF7461 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD398F662467DB1E00BF7461 /* LoginViewController.swift */; };
+		FD535D89240DEEDE00D67E8A /* icons_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FD535D88240DEEDE00D67E8A /* icons_menu.png */; };
+		FD535D8B240DEFBD00D67E8A /* icons_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD535D8A240DEFBD00D67E8A /* icons_error@2x.png */; };
+		FD535D8D240DEFE700D67E8A /* icons_error.png in Resources */ = {isa = PBXBuildFile; fileRef = FD535D8C240DEFE700D67E8A /* icons_error.png */; };
+		FD535D8F240DF04C00D67E8A /* icons8-close-window-24.png in Resources */ = {isa = PBXBuildFile; fileRef = FD535D8E240DF04C00D67E8A /* icons8-close-window-24.png */; };
+		FD535D93240DFAC500D67E8A /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD535D92240DFAC400D67E8A /* DemoViewController.swift */; };
+		FD535D96240E07B400D67E8A /* icons-menu-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FD535D95240E07B400D67E8A /* icons-menu-50.png */; };
+		FD535D98240E094500D67E8A /* icons_apple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD535D97240E094500D67E8A /* icons_apple_logo.png */; };
+		FD811ED72416246900360A6D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD811ED62416246900360A6D /* MenuViewController.swift */; };
+		FDC1FEA323FB819000526666 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1FEA223FB819000526666 /* ImageViewController.swift */; };
+		FDE50F4A2404F71B00650B5D /* launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE50F492404F71B00650B5D /* launcher.png */; };
+		FDE50F4E2404FA9D00650B5D /* Amazon_Alexa_App_Logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE50F4D2404FA9D00650B5D /* Amazon_Alexa_App_Logo58.png */; };
+		FDE50F502404FAA300650B5D /* Amazon_Alexa_App_Logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE50F4F2404FAA300650B5D /* Amazon_Alexa_App_Logo87.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +62,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B146D45AC47CC8C3B77ED48 /* Pods-VideosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideosApp.release.xcconfig"; path = "Target Support Files/Pods-VideosApp/Pods-VideosApp.release.xcconfig"; sourceTree = "<group>"; };
+		4133303BEEAB7E3A2651D9CB /* Pods-VideosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideosApp.debug.xcconfig"; path = "Target Support Files/Pods-VideosApp/Pods-VideosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB2DC9CDBC577F2F61A7713 /* Pods_VideosAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideosAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835E5C340D7B72EA6B637DB8 /* Pods_VideosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC625854471A0F704C0BA2CC /* Pods-VideosAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideosAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VideosAppTests/Pods-VideosAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5131DE8DAA421EB3DDB274 /* Pods_VideosApp_VideosAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideosApp_VideosAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E155E2A9F3CE46B2C6B559 /* Pods-VideosApp-VideosAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideosApp-VideosAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VideosApp-VideosAppUITests/Pods-VideosApp-VideosAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F637C171385EF08DF4A84FFB /* Pods-VideosApp-VideosAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideosApp-VideosAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VideosApp-VideosAppUITests/Pods-VideosApp-VideosAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F2B00B9A9CC15EB780106F /* Pods-VideosAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideosAppTests.release.xcconfig"; path = "Target Support Files/Pods-VideosAppTests/Pods-VideosAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD053B52240CE46700093B09 /* image_background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_background.jpeg; sourceTree = "<group>"; };
+		FD1BD00323F240B00006AA65 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FD1BD00523F243C00006AA65 /* Clips_iOS_10_App_Shutter_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clips_iOS_10_App_Shutter_Icon.png; sourceTree = "<group>"; };
 		FD22EA7E23EA7449008479BB /* VideosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD22EA8123EA7449008479BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD22EA8323EA7449008479BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD22EA8523EA7449008479BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD22EA8823EA7449008479BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD22EA8B23EA7449008479BB /* VideosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideosApp.xcdatamodel; sourceTree = "<group>"; };
 		FD22EA8D23EA744E008479BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +88,28 @@
 		FD22EAA223EA744F008479BB /* VideosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD22EAA623EA744F008479BB /* VideosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosAppUITests.swift; sourceTree = "<group>"; };
 		FD22EAA823EA744F008479BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD22EAB723EA7877008479BB /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		FD22EABF23EAA290008479BB /* icons8-calendar-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calendar-50.png"; sourceTree = "<group>"; };
+		FD22EAC123EAA2BF008479BB /* icons8-home-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-50.png"; sourceTree = "<group>"; };
+		FD23247323FA288200CABEEE /* camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera.jpg; sourceTree = "<group>"; };
+		FD23247523FA28B800CABEEE /* iOS-app-icons-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS-app-icons-1.jpg"; sourceTree = "<group>"; };
+		FD23247723FA2DA200CABEEE /* analog-camera-for-ios-app-icon-full-size--33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "analog-camera-for-ios-app-icon-full-size--33.jpg"; sourceTree = "<group>"; };
+		FD23247923FA2DE400CABEEE /* cydia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cydia.png; sourceTree = "<group>"; };
+		FD23247B23FA2E6800CABEEE /* dribbble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble1.png; sourceTree = "<group>"; };
+		FD398F662467DB1E00BF7461 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD535D88240DEEDE00D67E8A /* icons_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_menu.png; sourceTree = "<group>"; };
+		FD535D8A240DEFBD00D67E8A /* icons_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_error@2x.png"; sourceTree = "<group>"; };
+		FD535D8C240DEFE700D67E8A /* icons_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_error.png; sourceTree = "<group>"; };
+		FD535D8E240DF04C00D67E8A /* icons8-close-window-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-close-window-24.png"; sourceTree = "<group>"; };
+		FD535D92240DFAC400D67E8A /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		FD535D95240E07B400D67E8A /* icons-menu-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-menu-50.png"; sourceTree = "<group>"; };
+		FD535D97240E094500D67E8A /* icons_apple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_apple_logo.png; sourceTree = "<group>"; };
+		FD811ED62416246900360A6D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FDC1FEA223FB819000526666 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		FDDD23BF2463BE3400C1EBD4 /* videoshat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoshat.mp4; sourceTree = "<group>"; };
+		FDE50F492404F71B00650B5D /* launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcher.png; sourceTree = "<group>"; };
+		FDE50F4D2404FA9D00650B5D /* Amazon_Alexa_App_Logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amazon_Alexa_App_Logo58.png; sourceTree = "<group>"; };
+		FDE50F4F2404FAA300650B5D /* Amazon_Alexa_App_Logo87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amazon_Alexa_App_Logo87.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0AA521FD1FC927701E46FD /* Pods_VideosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C605348FCC2154A8EA9418 /* Pods_VideosAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +133,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98148DEA1D99C3369087EE8F /* Pods_VideosApp_VideosAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2324216734BCC91608FC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835E5C340D7B72EA6B637DB8 /* Pods_VideosApp.framework */,
+				EA5131DE8DAA421EB3DDB274 /* Pods_VideosApp_VideosAppUITests.framework */,
+				6BB2DC9CDBC577F2F61A7713 /* Pods_VideosAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45A162BB11F93CB94C3B994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4133303BEEAB7E3A2651D9CB /* Pods-VideosApp.debug.xcconfig */,
+				3B146D45AC47CC8C3B77ED48 /* Pods-VideosApp.release.xcconfig */,
+				F637C171385EF08DF4A84FFB /* Pods-VideosApp-VideosAppUITests.debug.xcconfig */,
+				F0E155E2A9F3CE46B2C6B559 /* Pods-VideosApp-VideosAppUITests.release.xcconfig */,
+				CC625854471A0F704C0BA2CC /* Pods-VideosAppTests.debug.xcconfig */,
+				F7F2B00B9A9CC15EB780106F /* Pods-VideosAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD1BD00223F240890006AA65 /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD1BD00323F240B00006AA65 /* CameraViewController.swift */,
+				FDC1FEA223FB819000526666 /* ImageViewController.swift */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
 		FD22EA7523EA7449008479BB = {
 			isa = PBXGroup;
 			children = (
+				FD22EAC623EAA557008479BB /* StoryBoard */,
 				FD22EA8023EA7449008479BB /* VideosApp */,
+				FD22EAB423EA76C1008479BB /* ViewController */,
+				FD535D94240DFC1D00D67E8A /* ViewsCell */,
+				FD22EABA23EA7A27008479BB /* Source */,
 				FD22EA9A23EA744F008479BB /* VideosAppTests */,
 				FD22EAA523EA744F008479BB /* VideosAppUITests */,
 				FD22EA7F23EA7449008479BB /* Products */,
+				D45A162BB11F93CB94C3B994 /* Pods */,
+				CE2324216734BCC91608FC47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +203,9 @@
 			children = (
 				FD22EA8123EA7449008479BB /* AppDelegate.swift */,
 				FD22EA8323EA7449008479BB /* SceneDelegate.swift */,
-				FD22EA8523EA7449008479BB /* ViewController.swift */,
-				FD22EA8723EA7449008479BB /* Main.storyboard */,
 				FD22EA8D23EA744E008479BB /* Assets.xcassets */,
-				FD22EA8F23EA744E008479BB /* LaunchScreen.storyboard */,
-				FD22EA9223EA744E008479BB /* Info.plist */,
 				FD22EA8A23EA7449008479BB /* VideosApp.xcdatamodeld */,
+				FD22EA9223EA744E008479BB /* Info.plist */,
 			);
 			path = VideosApp;
 			sourceTree = "<group>";
@@ -131,6 +228,92 @@
 			path = VideosAppUITests;
 			sourceTree = "<group>";
 		};
+		FD22EAB423EA76C1008479BB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD398F652467DAF900BF7461 /* LoginViewController */,
+				FD22EAB723EA7877008479BB /* MainController.swift */,
+				FD1BD00223F240890006AA65 /* CameraViewController */,
+				FD22EAC323EAA51D008479BB /* CalendarController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FD22EABA23EA7A27008479BB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD23BE2463BE1100C1EBD4 /* Icon */,
+				FDDD23BD2463BE0500C1EBD4 /* Videos */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FD22EAC323EAA51D008479BB /* CalendarController */ = {
+			isa = PBXGroup;
+			children = (
+				FD535D92240DFAC400D67E8A /* DemoViewController.swift */,
+				FD811ED62416246900360A6D /* MenuViewController.swift */,
+			);
+			path = CalendarController;
+			sourceTree = "<group>";
+		};
+		FD22EAC623EAA557008479BB /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FD22EA8723EA7449008479BB /* Main.storyboard */,
+				FD22EA8F23EA744E008479BB /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		FD398F652467DAF900BF7461 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD398F662467DB1E00BF7461 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		FD535D94240DFC1D00D67E8A /* ViewsCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsCell;
+			sourceTree = "<group>";
+		};
+		FDDD23BD2463BE0500C1EBD4 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD23BF2463BE3400C1EBD4 /* videoshat.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		FDDD23BE2463BE1100C1EBD4 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				FD535D97240E094500D67E8A /* icons_apple_logo.png */,
+				FD535D95240E07B400D67E8A /* icons-menu-50.png */,
+				FD535D8E240DF04C00D67E8A /* icons8-close-window-24.png */,
+				FD535D8C240DEFE700D67E8A /* icons_error.png */,
+				FD535D8A240DEFBD00D67E8A /* icons_error@2x.png */,
+				FD535D88240DEEDE00D67E8A /* icons_menu.png */,
+				FD053B52240CE46700093B09 /* image_background.jpeg */,
+				FDE50F4D2404FA9D00650B5D /* Amazon_Alexa_App_Logo58.png */,
+				FDE50F4F2404FAA300650B5D /* Amazon_Alexa_App_Logo87.png */,
+				FDE50F492404F71B00650B5D /* launcher.png */,
+				FD23247B23FA2E6800CABEEE /* dribbble1.png */,
+				FD23247923FA2DE400CABEEE /* cydia.png */,
+				FD23247723FA2DA200CABEEE /* analog-camera-for-ios-app-icon-full-size--33.jpg */,
+				FD23247523FA28B800CABEEE /* iOS-app-icons-1.jpg */,
+				FD23247323FA288200CABEEE /* camera.jpg */,
+				FD22EAC123EAA2BF008479BB /* icons8-home-50.png */,
+				FD22EABF23EAA290008479BB /* icons8-calendar-50.png */,
+				FD1BD00523F243C00006AA65 /* Clips_iOS_10_App_Shutter_Icon.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD22EAAB23EA744F008479BB /* Build configuration list for PBXNativeTarget "VideosApp" */;
 			buildPhases = (
+				35D9A381D62730677246A952 /* [CP] Check Pods Manifest.lock */,
 				FD22EA7A23EA7449008479BB /* Sources */,
 				FD22EA7B23EA7449008479BB /* Frameworks */,
 				FD22EA7C23EA7449008479BB /* Resources */,
+				AAF9B1EFCC5E47D4110D7281 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD22EAAE23EA744F008479BB /* Build configuration list for PBXNativeTarget "VideosAppTests" */;
 			buildPhases = (
+				396AF4A5DA3A9276EBF3FFDA /* [CP] Check Pods Manifest.lock */,
 				FD22EA9323EA744F008479BB /* Sources */,
 				FD22EA9423EA744F008479BB /* Frameworks */,
 				FD22EA9523EA744F008479BB /* Resources */,
@@ -173,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD22EAB123EA744F008479BB /* Build configuration list for PBXNativeTarget "VideosAppUITests" */;
 			buildPhases = (
+				9AB7BCAD2E07BFDC3557029E /* [CP] Check Pods Manifest.lock */,
 				FD22EA9E23EA744F008479BB /* Sources */,
 				FD22EA9F23EA744F008479BB /* Frameworks */,
 				FD22EAA023EA744F008479BB /* Resources */,
+				31EDD684E511728891B4F0F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,8 +423,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD23247823FA2DA300CABEEE /* analog-camera-for-ios-app-icon-full-size--33.jpg in Resources */,
+				FD23247C23FA2E6800CABEEE /* dribbble1.png in Resources */,
+				FD22EAC223EAA2BF008479BB /* icons8-home-50.png in Resources */,
+				FDE50F4A2404F71B00650B5D /* launcher.png in Resources */,
+				FD23247423FA288200CABEEE /* camera.jpg in Resources */,
+				FD23247623FA28B800CABEEE /* iOS-app-icons-1.jpg in Resources */,
+				FD535D8B240DEFBD00D67E8A /* icons_error@2x.png in Resources */,
+				FD1BD00623F243C00006AA65 /* Clips_iOS_10_App_Shutter_Icon.png in Resources */,
+				FD535D89240DEEDE00D67E8A /* icons_menu.png in Resources */,
+				FDE50F4E2404FA9D00650B5D /* Amazon_Alexa_App_Logo58.png in Resources */,
 				FD22EA9123EA744E008479BB /* LaunchScreen.storyboard in Resources */,
+				FD535D8D240DEFE700D67E8A /* icons_error.png in Resources */,
+				FD23247A23FA2DE400CABEEE /* cydia.png in Resources */,
+				FD535D96240E07B400D67E8A /* icons-menu-50.png in Resources */,
+				FD22EAC023EAA290008479BB /* icons8-calendar-50.png in Resources */,
+				FD053B53240CE46700093B09 /* image_background.jpeg in Resources */,
 				FD22EA8E23EA744E008479BB /* Assets.xcassets in Resources */,
+				FD535D8F240DF04C00D67E8A /* icons8-close-window-24.png in Resources */,
+				FDE50F502404FAA300650B5D /* Amazon_Alexa_App_Logo87.png in Resources */,
+				FD535D98240E094500D67E8A /* icons_apple_logo.png in Resources */,
 				FD22EA8923EA7449008479BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,15 +463,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31EDD684E511728891B4F0F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideosApp-VideosAppUITests/Pods-VideosApp-VideosAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideosApp-VideosAppUITests/Pods-VideosApp-VideosAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideosApp-VideosAppUITests/Pods-VideosApp-VideosAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D9A381D62730677246A952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396AF4A5DA3A9276EBF3FFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideosAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB7BCAD2E07BFDC3557029E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideosApp-VideosAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF9B1EFCC5E47D4110D7281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideosApp/Pods-VideosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideosApp/Pods-VideosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideosApp/Pods-VideosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD22EA7A23EA7449008479BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD22EA8623EA7449008479BB /* ViewController.swift in Sources */,
+				FD398F672467DB1E00BF7461 /* LoginViewController.swift in Sources */,
+				FD22EAB823EA7877008479BB /* MainController.swift in Sources */,
 				FD22EA8C23EA7449008479BB /* VideosApp.xcdatamodeld in Sources */,
+				FD1BD00423F240B00006AA65 /* CameraViewController.swift in Sources */,
 				FD22EA8223EA7449008479BB /* AppDelegate.swift in Sources */,
+				FD535D93240DFAC500D67E8A /* DemoViewController.swift in Sources */,
+				FDC1FEA323FB819000526666 /* ImageViewController.swift in Sources */,
 				FD22EA8423EA7449008479BB /* SceneDelegate.swift in Sources */,
+				FD811ED72416246900360A6D /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +750,10 @@
 		};
 		FD22EAAC23EA744F008479BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4133303BEEAB7E3A2651D9CB /* Pods-VideosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JH4X9XFH5;
 				INFOPLIST_FILE = VideosApp/Info.plist;
@@ -447,6 +763,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.VideosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,8 +771,10 @@
 		};
 		FD22EAAD23EA744F008479BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B146D45AC47CC8C3B77ED48 /* Pods-VideosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JH4X9XFH5;
 				INFOPLIST_FILE = VideosApp/Info.plist;
@@ -465,6 +784,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.VideosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +792,7 @@
 		};
 		FD22EAAF23EA744F008479BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC625854471A0F704C0BA2CC /* Pods-VideosAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +815,7 @@
 		};
 		FD22EAB023EA744F008479BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F2B00B9A9CC15EB780106F /* Pods-VideosAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +838,7 @@
 		};
 		FD22EAB223EA744F008479BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F637C171385EF08DF4A84FFB /* Pods-VideosApp-VideosAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +859,7 @@
 		};
 		FD22EAB323EA744F008479BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E155E2A9F3CE46B2C6B559 /* Pods-VideosApp-VideosAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,13 +8,44 @@
 
 import UIKit
 import CoreData
+import AVFoundation
+import KYDrawerController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    var window: UIWindow?
+    var drawerController = KYDrawerController.init(drawerDirection: .left, drawerWidth: 150)
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+        let mainVC = storyboard.instantiateViewController(identifier: "Three_ID")
+        let menuVC = storyboard.instantiateViewController(identifier: "ImageViewController")
+        
+       
+        self.drawerController.mainViewController = mainVC
+        self.drawerController.drawerViewController = menuVC
+
+        /// Customizing
+        window = UIWindow(frame: UIScreen.main.bounds)
+     //   window?.rootViewController = drawerController
+        window?.makeKeyAndVisible()
+        
+        
+        var categoryError :NSError?
+        var success: Bool
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback,mode:.moviePlayback,options: .duckOthers)
+            success = true
+        } catch let error as NSError {
+            categoryError = error
+            success = false
+        }
+        if !success {
+            print("Appdelegate Error")
+        }
         // Override point for customization after application launch.
         return true
     }
